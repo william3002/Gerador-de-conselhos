@@ -1,0 +1,143 @@
+@media (max-width:1024px) {
+    .circle {
+        background-color: hsl(150, 100%, 66%);
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        left: calc(43% + 48px);
+        bottom: 114px;
+    }
+
+    #divider {
+        content: url('images/pattern-divider-mobile.svg');
+    }
+
+    .container {
+        padding: 10px;
+        margin-top: 182px;
+        height: 290px;
+        width: 396px;
+        background-color: hsl(217, 19%, 24%);
+    }
+
+}
+
+@media (max-width:768px) {
+    .circle {
+        background-color: hsl(150, 100%, 66%);
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        left: calc(41% + 48px);
+        bottom: 115px;
+    }
+
+    #divider {
+        content: url('images/pattern-divider-mobile.svg');
+    }
+
+    .container {
+        padding: 10px;
+        margin-top: 182px;
+        height: 290px;
+        width: 396px;
+        background-color: hsl(217, 19%, 24%);
+    }
+
+}
+
+@media (max-width:760px) {
+    .circle {
+        background-color: hsl(150, 100%, 66%);
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        left: calc(33% + 48px);
+        bottom: 111px;
+    }
+
+    #divider {
+        content: url('images/pattern-divider-mobile.svg');
+    }
+
+    .container {
+        padding: 10px;
+        margin-top: 182px;
+        height: 290px;
+        width: 396px;
+        background-color: hsl(217, 19%, 24%);
+    }
+
+}
+
+@media (max-width:425px) {
+    .circle {
+        background-color: hsl(150, 100%, 66%);
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        left: calc(34% + 37px);
+        bottom: 114px;
+    }
+
+    #divider {
+        content: url('images/pattern-divider-mobile.svg');
+    }
+
+    .container {
+        padding: 10px;
+        margin-top: 182px;
+        height: 290px;
+        width: 339px;
+        background-color: hsl(217, 19%, 24%);
+    }
+
+}
+
+@media (max-width:375px) {
+    .circle {
+        background-color: hsl(150, 100%, 66%);
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        left: calc(35% + 47px);
+        bottom: 286px;
+    }
+
+    #divider {
+        content: url('images/pattern-divider-mobile.svg');
+    }
+
+    .container {
+        padding: 10px;
+        margin-top: 182px;
+        height: 290px;
+        width: 396px;
+        background-color: hsl(217, 19%, 24%);
+    }
+
+}
+
+@media (max-width:320px) {
+    .circle {
+        background-color: hsl(150, 100%, 66%);
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        left: calc(29% + 48px);
+        bottom: 152px;
+    }
+
+    #divider {
+        content: url('images/pattern-divider-mobile.svg');
+    }
+
+    .container {
+        padding: 10px;
+        margin-top: 182px;
+        height: 290px;
+        width: 339px;
+        background-color: hsl(217, 19%, 24%);
+    }
+
+}
