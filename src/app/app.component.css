@@ -1,0 +1,42 @@
+main{
+    width: 340px;
+    height: 200px;
+
+    background-color: hsl(217, 19%, 24%);
+    font-family: "Manrope";
+}
+
+div{
+    background-color: hsl(218, 23%, 16%);
+}
+
+h6{
+    color:  hsl(150, 100%, 66%);
+}
+
+p{
+    height: 60px;
+}
+
+.btn{
+    position: absolute;
+    top: 180px;
+    right: 145px;
+    background-color:  hsl(150, 100%, 66%);
+}
+
+.btn:hover{
+    background-color:  hsl(150, 100%, 66%);
+}
+
+@media (min-width: 1400px) {
+    main{
+        width: 500px;
+        height: 250px;
+    }
+
+    .btn{
+        top: 230px;
+        right: 225px;
+    }
+}
