@@ -2,6 +2,7 @@ main{
     width: 340px;
     height: 200px;
 
+    position: relative;
     background-color: hsl(217, 19%, 24%);
     font-family: "Manrope";
 }
@@ -19,14 +20,22 @@ p{
 }
 
 .btn{
+    height: 50px;
+    width: 50px;
     position: absolute;
     top: 180px;
     right: 145px;
     background-color:  hsl(150, 100%, 66%);
+    transition: transform 0.3 ease;
 }
 
 .btn:hover{
-    background-color:  hsl(150, 100%, 66%);
+    transform: scale(1.1);
+}
+
+.btn:active{
+    transform: scale(0.9);
+    background-color:  hsla(150, 100%, 66%, 0.5);
 }
 
 @media (min-width: 1400px) {
@@ -35,8 +44,12 @@ p{
         height: 250px;
     }
 
+    p{
+        height: 80px;
+    }
+
     .btn{
-        top: 230px;
+        top: 225px;
         right: 225px;
     }
 }
